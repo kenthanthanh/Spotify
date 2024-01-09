@@ -1,0 +1,141 @@
+{
+    "name": "Lyrics tháng tư <3",
+   
+            "albumCover": "/images/albumCovers/DiariesOfAHero.png",
+    "releaseYear": "2023",
+    "tracks": [
+        {
+            "id": 1,
+            "name": "Nàng Thơ Xứ Huế",
+            "singer" : "Thùy Chi",
+            "poster" : "/images/albumCovers/nàng thơ xứ huế.jpg",
+            "path": "/songs/y2mate.com -  Nàng Thơ Xứ Huế  Thùy Chi  Theme Song From Nàng thơ xứ Huế Series.mp3"
+        },
+        {
+            "id": 2,
+            "name": "Liệu Giờ",
+            "singer" : "2T X Venn",
+            "poster" : "/images/albumCovers/liệu giờ.jpg",
+            "path": "/songs/y2mate.com - 2T  LIỆU GIỜ  WHAT IF   x Venn  Prod KayT   MV.mp3"
+        },
+        {
+            "id": 3,
+            "name": "Bước Qua Nhau",
+            "singer" : "vũ",
+            "poster" : "/images/albumCovers/bước qua nhau.jpg",
+            "path": "/songs/y2mate.com - BƯỚC QUA NHAU  Vũ Official MV.mp3"
+        },
+        {
+            "id": 4,
+            "name": "Chuyện Đôi Ta",
+            "singer" : "Emcee L Da LAB ft Muộii",
+            "poster" : "/images/albumCovers/chuyện đôi ta.jpg",
+            "path": "/songs/y2mate.com - Chuyện Đôi Ta  Emcee L Da LAB ft Muộii Official MV.mp3"
+        },
+        {
+            "id": 5,
+            "name": "Chờ Đợi Có Đáng Sợ",
+            "singer" : "Andiez",
+            "poster" : "/images/albumCovers/chờ đợi có đáng sợ.jpg",
+            "path": "/songs/y2mate.com - CHỜ ĐỢI CÓ ĐÁNG SỢ  ANDIEZ  OFFICIAL MV.mp3"
+        },
+        {
+            "id": 6,
+            "name": "Remember Our Summer",
+            "singer" : "Frogmonster",
+            "poster" : "/images/albumCovers/remember our summer.jpg",
+            "path": "/songs/y2mate.com - Frogmonster  Remember Our Summer Official Audio.mp3"
+        },
+        {
+            "id": 7,
+            "name": "Xin Chào Việt Nam",
+            "singer" : "Thùy Chi",
+            "poster" : "/images/albumCovers/xin chào vn.jpg",
+            "path": "/songs/y2mate.com - HD Chào Việt Nam  Thùy Chi  Hello Viet Nam.mp3"
+        },
+        {
+            "id": 8,
+            "name": "Aurora",
+            "singer" : "K391",
+            "poster" : "/images/albumCovers/aurora.jpg",
+            "path": "/songs/y2mate.com - K391  RØRY  Aurora Lyrics.mp3"
+        },
+        {
+            "id": 9,
+            "name": "Lâu Lâu Nhắc Lại",
+            "singer" : "Hà Nhi ft Khói",
+            "poster" : "/images/albumCovers/lâu lâu nhắc lại.jpg",
+            "path": "/songs/y2mate.com - LÂU LÂU NHẮC LẠI  Hà Nhi ft Khói  Official Music Video.mp3"
+        },
+        {
+            "id": 10,
+            "name": "Lưu Luyến Sau Chia Tay",
+            "singer" : "Try92 ft Kai06",
+            "poster" : "/images/albumCovers/lưu luyến sau chia tay.jpg",
+            "path": "/songs/y2mate.com - Lưu Luyến Sau Chia Tay  Try92 ft Kai06  Official Lyrics Video.mp3"
+        },
+        {
+            "id": 11,
+            "name": "Hôm Nay Tôi Buồn",
+            "singer" : "Phùng Khánh Linh",
+            "poster" : "/images/albumCovers/hôm nay tôi buồn.jpg",
+            "path": "/songs/y2mate.com - Phùng Khánh Linh  Hôm Nay Tôi Buồn Official Music Video.mp3"
+        }
+        ,
+        {
+            "id": 12,
+            "name": "Bóng Phù Hoa",
+            "singer" : "Phương Mỹ Chi x DTAP",
+            "poster" : "/images/albumCovers/bóng phù hoa.jpg",
+            "path": "/songs/y2mate.com - PHƯƠNG MỸ CHI x DTAP  BÓNG PHÙ HOA  OFFICIAL VISUALIZER.mp3"
+        }
+        ,
+        {
+            "id": 13,
+            "name": "Bông Hoa Đẹp Nhất",
+            "singer" : "Quân AP",
+            "poster" : "/images/albumCovers/bông hoa đẹp nhất.jpg",
+            "path": "/songs/y2mate.com - QUÂN AP  BÔNG HOA ĐẸP NHẤT  OFFICIAL MUSIC VIDEO.mp3"
+        }
+        ,
+        {
+            "id": 14,
+            "name": "Thêm Bao Nhiêu Lâu",
+            "singer" : "Đạt G",
+            "poster" : "/images/albumCovers/thêm bao nhiêu lâu.jpg",
+            "path": "/songs/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3"
+        }
+        ,
+        {
+            "id": 15,
+            "name": "Thằng Điên",
+            "singer" : "Justatee x Phương Ly",
+            "poster" : "/images/albumCovers/thằng điên.jpg",
+            "path": "/songs/y2mate.com - THẰNG ĐIÊN  JUSTATEE x PHƯƠNG LY  OFFICIAL MV.mp3"
+        }
+        ,
+        {
+            "id": 16,
+            "name": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+            "singer" : " Ái Phương X Trúc Nhân",
+            "poster" : "/images/albumCovers/tôi thấy hoa vàng trên cỏ xanh.jpg",
+            "path": "/songs/y2mate.com - Tôi Thấy Hoa Vàng Trên Cỏ Xanh  Ái Phương  Yeah1 Superstar Offical MV.mp3"
+        }
+        ,
+        {
+            "id": 17,
+            "name": "Từng Quen",
+            "singer" : "Wren Evans x Freak D",
+            "poster" : "/images/albumCovers/từng quen.jpg",
+            "path": "/songs/y2mate.com - Từng Quen Lofi Ver  Wren Evans x Freak D.mp3"
+        }
+        ,
+        {
+            "id": 18,
+            "name": "Xin Chào Việt Nam - Violin",
+            "singer" : "JMI KO",
+            "poster" : "/images/albumCovers/hello việt nam.jpg",
+            "path": "/songs/y2mate.com - Xin Chào Việt Nam  Nghệ sỹ Violin JMI KO  Official MV  Nhạc trẻ hay mới nhất.mp3"
+        }
+    ]
+}
