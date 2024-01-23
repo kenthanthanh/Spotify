@@ -1,0 +1,461 @@
+{
+  "data": [
+    {
+      "name": "Intelligent Money Podcast",
+      "albumCover": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+      "releaseYear": "2023",
+      "type": "Podcast",
+      "author": "Vì sao thế nhỉ?",
+      "isPin": true,
+      "isLiked": true,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Có câu nói nào đã từng khiến cậu vỡ vụn chưa?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Có câu nói nào đã từng khiến cậu vỡ vụn chưa Podcast.mp3",
+          "isLiked": true
+        },
+
+        {
+          "id": 2,
+          "name": "Con không thể ngưng nghĩ về nhà của con ",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Con không thể ngưng nghi vê nha cua con  Radio2 lá thư không gửi P1.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 3,
+          "name": "Ngoài kia không biết thế giới yêu nhau kiểu gì?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/thế giớ ngoài kia yêu nhau kiểu gì.jpg",
+          "path": "src/assets/playlists/y2mate.com - Ngoài kia không biết thế giới yêu nhau kiểu gì Podcast.mp3",
+          "isLiked": true
+        },
+
+        {
+          "id": 4,
+          "name": "Kẻ từng đi bắt nạt giờ đang sống ra sao?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Kẻ từng đi bắt nạt giờ đang sống ra sao Podcast.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 5,
+          "name": "Giá như không phải nói một câu giá như  lá thư không gửi",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Giá như không phải nói một câu giá như  lá thư không gửi P2  Radio4.mp3",
+          "isLiked": true
+        }
+      ]
+    },
+    {
+      "name": "Mike Williams",
+      "albumCover": "src/assets/img/albumCovers/Author/MikeWilliams.jpg",
+      "releaseYear": "2023",
+      "type": "Artist",
+      "author": "Mike Williams",
+      "isPin": true,
+      "isLiked": false,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Make You Mine",
+          "singer": "Mike Williams ft Moa Lisa ",
+          "poster": "src/assets/img/albumCovers/Author/MikeWilliams.jpg",
+          "path": "src/assets/playlists/y2mate.com - Mike Williams  Make You Mine feat Moa Lisa Official Music Video.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 2,
+          "name": "Wait Another Day",
+          "singer": "Mike Williams x Mesto",
+          "poster": "src/assets/img/albumCovers/wait another day.jpg",
+          "path": "src/assets/playlists/y2mate.com - Mike Williams x Mesto  Wait Another Day Official Music Video.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 3,
+          "name": "Wait For You",
+          "singer": "Mike Williams ft Maia Wright",
+          "poster": "src/assets/img/albumCovers/Author/MikeWilliams.jpg",
+          "path": "src/assets/playlists/y2mate.com - Mike Williams  Wait For You feat Maia Wright Official Music Video.mp3",
+          "isLiked": true
+        }
+      ]
+    },
+    {
+      "name": "Lyrics tháng tư <3",
+      "albumCover": "src/assets/img/avatar.avif",
+      "releaseYear": "2023",
+      "type": "Playlist",
+      "author": "h2_siee",
+      "isPin": true,
+      "isLiked": false,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Nàng Thơ Xứ Huế",
+          "singer": "Thùy Chi",
+          "poster": "src/assets/img/albumCovers/nàng thơ xứ huế.jpg",
+          "path": "src/assets/playlists/y2mate.com -  Nàng Thơ Xứ Huế  Thùy Chi  Theme Song From Nàng thơ xứ Huế Series.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 2,
+          "name": "Liệu Giờ",
+          "singer": "2T X Venn",
+          "poster": "src/assets/img/albumCovers/liệu giờ.jpg",
+          "path": "src/assets/playlists/y2mate.com - 2T  LIỆU GIỜ  WHAT IF   x Venn  Prod KayT   MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 3,
+          "name": "Bước Qua Nhau",
+          "singer": "vũ",
+          "poster": "src/assets/img/albumCovers/bước qua nhau.jpg",
+          "path": "src/assets/playlists/y2mate.com - BƯỚC QUA NHAU  Vũ Official MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 4,
+          "name": "Chuyện Đôi Ta",
+          "singer": "Emcee L Da LAB ft Muộii",
+          "poster": "src/assets/img/albumCovers/chuyện đôi ta.jpg",
+          "path": "src/assets/playlists/y2mate.com - Chuyện Đôi Ta  Emcee L Da LAB ft Muộii Official MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 5,
+          "name": "Chờ Đợi Có Đáng Sợ",
+          "singer": "Andiez",
+          "poster": "src/assets/img/albumCovers/chờ đợi có đáng sợ.jpg",
+          "path": "src/assets/playlists/y2mate.com - CHỜ ĐỢI CÓ ĐÁNG SỢ  ANDIEZ  OFFICIAL MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 6,
+          "name": "Remember Our Summer",
+          "singer": "Frogmonster",
+          "poster": "src/assets/img/albumCovers/remember our summer.jpg",
+          "path": "src/assets/playlists/y2mate.com - Frogmonster  Remember Our Summer Official Audio.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 7,
+          "name": "Xin Chào Việt Nam",
+          "singer": "Thùy Chi",
+          "poster": "src/assets/img/albumCovers/xin chào vn.jpg",
+          "path": "src/assets/playlists/y2mate.com - HD Chào Việt Nam  Thùy Chi  Hello Viet Nam.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 8,
+          "name": "Aurora",
+          "singer": "K391",
+          "poster": "src/assets/img/albumCovers/aurora.jpg",
+          "path": "src/assets/playlists/y2mate.com - K391  RØRY  Aurora Lyrics.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 9,
+          "name": "Lâu Lâu Nhắc Lại",
+          "singer": "Hà Nhi ft Khói",
+          "poster": "src/assets/img/albumCovers/lâu lâu nhắc lại.jpg",
+          "path": "src/assets/playlists/y2mate.com - LÂU LÂU NHẮC LẠI  Hà Nhi ft Khói  Official Music Video.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 10,
+          "name": "Lưu Luyến Sau Chia Tay",
+          "singer": "Try92 ft Kai06",
+          "poster": "src/assets/img/albumCovers/lưu luyến sau chia tay.jpg",
+          "path": "src/assets/playlists/y2mate.com - Lưu Luyến Sau Chia Tay  Try92 ft Kai06  Official Lyrics Video.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 11,
+          "name": "Hôm Nay Tôi Buồn",
+          "singer": "Phùng Khánh Linh",
+          "poster": "src/assets/img/albumCovers/hôm nay tôi buồn.jpg",
+          "path": "src/assets/playlists/y2mate.com - Phùng Khánh Linh  Hôm Nay Tôi Buồn Official Music Video.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 12,
+          "name": "Bóng Phù Hoa",
+          "singer": "Phương Mỹ Chi x DTAP",
+          "poster": "src/assets/img/albumCovers/bóng phù hoa.jpg",
+          "path": "src/assets/playlists/y2mate.com - PHƯƠNG MỸ CHI x DTAP  BÓNG PHÙ HOA  OFFICIAL VISUALIZER.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 13,
+          "name": "Bông Hoa Đẹp Nhất",
+          "singer": "Quân AP",
+          "poster": "src/assets/img/albumCovers/bông hoa đẹp nhất.jpg",
+          "path": "src/assets/playlists/y2mate.com - QUÂN AP  BÔNG HOA ĐẸP NHẤT  OFFICIAL MUSIC VIDEO.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 14,
+          "name": "Thêm Bao Nhiêu Lâu",
+          "singer": "Đạt G",
+          "poster": "src/assets/img/albumCovers/thêm bao nhiêu lâu.jpg",
+          "path": "src/assets/playlists/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 15,
+          "name": "Thằng Điên",
+          "singer": "Justatee x Phương Ly",
+          "poster": "src/assets/img/albumCovers/thằng điên.jpg",
+          "path": "src/assets/playlists/y2mate.com - THẰNG ĐIÊN  JUSTATEE x PHƯƠNG LY  OFFICIAL MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 16,
+          "name": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+          "singer": " Ái Phương X Trúc Nhân",
+          "poster": "src/assets/img/albumCovers/tôi thấy hoa vàng trên cỏ xanh.jpg",
+          "path": "src/assets/playlists/y2mate.com - Tôi Thấy Hoa Vàng Trên Cỏ Xanh  Ái Phương  Yeah1 Superstar Offical MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 17,
+          "name": "Từng Quen",
+          "singer": "Wren Evans x Freak D",
+          "poster": "src/assets/img/albumCovers/từng quen.jpg",
+          "path": "src/assets/playlists/y2mate.com - Từng Quen Lofi Ver  Wren Evans x Freak D.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 18,
+          "name": "Xin Chào Việt Nam - Violin",
+          "singer": "JMI KO",
+          "poster": "src/assets/img/albumCovers/hello việt nam.jpg",
+          "path": "src/assets/playlists/y2mate.com - Xin Chào Việt Nam  Nghệ sỹ Violin JMI KO  Official MV  Nhạc trẻ hay mới nhất.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 19,
+          "name": "Clarity X Body Back",
+          "singer": "Zedd x Gryffin",
+          "poster": "src/assets/img/albumCovers/Author/grynffin.jpg",
+          "path": "src/assets/playlists/y2mate.com - Zedd x Gryffin Clarity X Body Back MitiS Remix Zenit Mashup.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 20,
+          "name": "Body Back",
+          "singer": "Gryffin x Maia Wright",
+          "poster": "src/assets/img/albumCovers/Author/grynffin.jpg",
+          "path": "src/assets/playlists/y2mate.com - Gryffin  Body Back ft Maia Wright Official Music Video.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 21,
+          "name": "Just For A Moment",
+          "singer": "Gryffin x Iselin",
+          "poster": "src/assets/img/albumCovers/Author/grynffin.jpg",
+          "path": "src/assets/playlists/y2mate.com - Gryffin  Just For A Moment ft Iselin.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 22,
+          "name": "Ignite",
+          "singer": "Alan Walker x Julie Bergan  Seungri",
+          "poster": "src/assets/img/albumCovers/Article-Banner-Alan-Walker.png",
+          "path": "src/assets/playlists/y2mate.com - K391  Alan Walker  Ignite feat Julie Bergan  Seungri.mp3",
+          "isLiked": true
+        }
+      ]
+    },
+    {
+      "name": "qt (v_s)",
+      "albumCover": "src/assets/img/albumCovers/DiariesOfAHero.png",
+      "releaseYear": "2023",
+      "type": "Playlist",
+      "author": "qt_siee",
+      "isPin": false,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Nàng Thơ Xứ Huế",
+          "singer": "Thùy Chi",
+          "poster": "src/assets/img/albumCovers/nàng thơ xứ huế.jpg",
+          "path": "src/assets/playlists/y2mate.com -  Nàng Thơ Xứ Huế  Thùy Chi  Theme Song From Nàng thơ xứ Huế Series.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 2,
+          "name": "Liệu Giờ",
+          "singer": "2T X Venn",
+          "poster": "src/assets/img/albumCovers/liệu giờ.jpg",
+          "path": "src/assets/playlists/y2mate.com - 2T  LIỆU GIỜ  WHAT IF   x Venn  Prod KayT   MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 3,
+          "name": "Bước Qua Nhau",
+          "singer": "vũ",
+          "poster": "src/assets/img/albumCovers/bước qua nhau.jpg",
+          "path": "src/assets/playlists/y2mate.com - BƯỚC QUA NHAU  Vũ Official MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 4,
+          "name": "Chuyện Đôi Ta",
+          "singer": "Emcee L Da LAB ft Muộii",
+          "poster": "src/assets/img/albumCovers/chuyện đôi ta.jpg",
+          "path": "src/assets/playlists/y2mate.com - Chuyện Đôi Ta  Emcee L Da LAB ft Muộii Official MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 5,
+          "name": "Chờ Đợi Có Đáng Sợ",
+          "singer": "Andiez",
+          "poster": "src/assets/img/albumCovers/chờ đợi có đáng sợ.jpg",
+          "path": "src/assets/playlists/y2mate.com - CHỜ ĐỢI CÓ ĐÁNG SỢ  ANDIEZ  OFFICIAL MV.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 6,
+          "name": "Remember Our Summer",
+          "singer": "Frogmonster",
+          "poster": "src/assets/img/albumCovers/remember our summer.jpg",
+          "path": "src/assets/playlists/y2mate.com - Frogmonster  Remember Our Summer Official Audio.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 7,
+          "name": "Xin Chào Việt Nam",
+          "singer": "Thùy Chi",
+          "poster": "src/assets/img/albumCovers/xin chào vn.jpg",
+          "path": "src/assets/playlists/y2mate.com - HD Chào Việt Nam  Thùy Chi  Hello Viet Nam.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 8,
+          "name": "Aurora",
+          "singer": "K391",
+          "poster": "src/assets/img/albumCovers/aurora.jpg",
+          "path": "src/assets/playlists/y2mate.com - K391  RØRY  Aurora Lyrics.mp3",
+          "isLiked": true
+        }
+      ]
+    },
+    {
+      "name": "Hiếu TV",
+      "albumCover": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+      "releaseYear": "2023",
+      "type": "Podcast",
+      "author": "Hiếu TV",
+      "isPin": true,
+      "isLiked": true,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Có câu nói nào đã từng khiến cậu vỡ vụn chưa?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Có câu nói nào đã từng khiến cậu vỡ vụn chưa Podcast.mp3",
+          "isLiked": true
+        },
+
+        {
+          "id": 2,
+          "name": "Con không thể ngưng nghĩ về nhà của con ",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Con không thể ngưng nghi vê nha cua con  Radio2 lá thư không gửi P1.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 3,
+          "name": "Ngoài kia không biết thế giới yêu nhau kiểu gì?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/thế giớ ngoài kia yêu nhau kiểu gì.jpg",
+          "path": "src/assets/playlists/y2mate.com - Ngoài kia không biết thế giới yêu nhau kiểu gì Podcast.mp3",
+          "isLiked": true
+        }
+      ]
+    },
+    {
+      "name": "Vũ Cát Tường",
+      "albumCover": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+      "releaseYear": "2023",
+      "type": "Artist",
+      "author": "Vũ Cát Tường",
+      "isPin": true,
+      "isLiked": true,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Có câu nói nào đã từng khiến cậu vỡ vụn chưa?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Có câu nói nào đã từng khiến cậu vỡ vụn chưa Podcast.mp3",
+          "isLiked": true
+        },
+
+        {
+          "id": 2,
+          "name": "Con không thể ngưng nghĩ về nhà của con ",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Con không thể ngưng nghi vê nha cua con  Radio2 lá thư không gửi P1.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 3,
+          "name": "Ngoài kia không biết thế giới yêu nhau kiểu gì?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/thế giớ ngoài kia yêu nhau kiểu gì.jpg",
+          "path": "src/assets/playlists/y2mate.com - Ngoài kia không biết thế giới yêu nhau kiểu gì Podcast.mp3",
+          "isLiked": true
+        }
+      ]
+    },
+    {
+      "name": "Lỷics thứ tư <3",
+      "albumCover": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+      "releaseYear": "2023",
+      "type": "Album",
+      "author": "qt_siee",
+      "isPin": true,
+      "isLiked": true,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Có câu nói nào đã từng khiến cậu vỡ vụn chưa?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Có câu nói nào đã từng khiến cậu vỡ vụn chưa Podcast.mp3",
+          "isLiked": true
+        },
+
+        {
+          "id": 2,
+          "name": "Con không thể ngưng nghĩ về nhà của con ",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/vì sao thế nhỉ.jpg",
+          "path": "src/assets/playlists/y2mate.com - Con không thể ngưng nghi vê nha cua con  Radio2 lá thư không gửi P1.mp3",
+          "isLiked": true
+        },
+        {
+          "id": 3,
+          "name": "Ngoài kia không biết thế giới yêu nhau kiểu gì?",
+          "singer": "Vì sao thế nhỉ?",
+          "poster": "src/assets/img/albumCovers/Podcast/thế giớ ngoài kia yêu nhau kiểu gì.jpg",
+          "path": "src/assets/playlists/y2mate.com - Ngoài kia không biết thế giới yêu nhau kiểu gì Podcast.mp3",
+          "isLiked": true
+        }
+      ]
+    }
+  ]
+}

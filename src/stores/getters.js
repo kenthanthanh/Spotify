@@ -1,26 +1,45 @@
 export default {
-  getSongs(state) {
-    return state.songs;
+  getData(state) {
+    return state.data.data;
   },
-  getPlayer(state) {
-    return state.player;
+  getFilteredData(state) {
+    return (state.filteredData = state.filteredData
+      ? state.filteredData
+      : state.data.data);
   },
-  getCurrentIndex(state) {
-    return state.currentIndex;
+  getTracks(state) {
+    state.currentPlaylist = state.currentPlaylist
+      ? state.currentPlaylist
+      : state.data.data[0];
+    return state.currentPlaylist.tracks;
   },
-  getTimeProgress(state) {
-    return state.timeProgress;
+  getPlaylist(state) {
+    return (state.currentPlaylist = state.currentPlaylist
+      ? state.currentPlaylist
+      : state.data.data[0]);
   },
-  isPlaying(state) {
-    return state.isPlaying;
+  getCurrentTrack(state) {
+    return state.currentTrack
+      ? state.currentTrack
+      : state.data.data[0].tracks[0];
   },
-  isRandom(state) {
-    return state.isRandom;
+  getVolPercent(state) {
+    return state.volume * 100;
   },
-  isRepeat(state) {
-    return state.isRepeat;
-  },
-  getVolume(state) {
-    return state.volume;
+
+  getFilterPlaylist(state) {
+    return {
+      all: () => state.data.data,
+      playlist: () =>
+        state.data.data.filter((playlist) => playlist.type === "Playlist"),
+      artist: () =>
+        state.data.data.filter((playlist) => playlist.type === "Artist"),
+      podcast: () =>
+        state.data.data.filter((playlist) => playlist.type === "Podcast"),
+      current: () =>
+        state.data.data.filter(
+          (playlist) => playlist.type === state.currentPlaylist
+        ),
+    };
   },
 };

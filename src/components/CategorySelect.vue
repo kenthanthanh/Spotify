@@ -18,13 +18,13 @@ const { image, category } = toRefs(props);
       :style="`background-color: ${color};`"
       class="select-none contrast-[2] brightness-[0.87] rounded-xl aspect-square relative overflow-hidden"
     >
-      <div class="font-bold text-white text-2xl p-[16px] break-words">
+      <div class="font-bold text-white text-2xl p-[16px] truncate">
         {{ category }}
       </div>
       <img
         :src="image"
         alt=""
-        class="absolute contrast-[0.55] -right-3.5 bottom-0 max-w-[100px] rotate-[25deg]"
+        class="absolute rounded-lg contrast-[0.55] -right-3.5 bottom-0 max-w-[100px] rotate-[25deg]"
       />
     </div>
   </RouterLink>

@@ -1,12 +1,14 @@
 export default {
-  play({ commit }) {
-    commit("play", index);
+  play({ commit }, track) {
+    commit("play", { track });
   },
   pause({ commit }) {
     commit("pause");
   },
   next({ commit }) {
-    commit("next");
+    const tracks = this.getters.getTracks;
+
+    commit("next", tracks);
   },
   prev({ commit }) {
     commit("prev");

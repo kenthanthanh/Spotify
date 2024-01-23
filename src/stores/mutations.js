@@ -6,94 +6,183 @@ export default {
     if (localStorage.getItem("store")) {
       const storedState = JSON.parse(localStorage.getItem("store"));
       storedState.isPlaying = false;
-      storedState.timeProgress = 0;
+      // storedState.timeProgress = 0;
+
       Object.assign(state, storedState);
       const playerData = {
-        src: state.songs[state.currentIndex].src,
+        src: state.currentTrack ? state.currentTrack.path : "",
         loop: state.isRepeat,
         volume: state.volume,
       };
 
-      state.player = new Audio();
-      Object.assign(state.player, playerData);
+      state.audio = new Audio();
+      Object.assign(state.audio, playerData);
     } else {
-      state.player = new Audio();
+      state.audio = new Audio();
     }
   },
-  play(state, index) {
-    let audio = state.player;
-    const song = state.songs[index];
+  updateTrackState(state, { track, index }) {
+    state.currentTrack = track;
+    state.currentIndex = index;
+  },
+
+  updateCurrentPlaylist(state, playlist) {
+    state.currentPlaylist = playlist;
+  },
+  play(state, { track, index }) {
+    if (!state.audio) {
+      state.audio = new Audio();
+    }
+    let audio = state.audio;
     audio.volume = state.volume;
-    if (typeof song.src !== "undefined") {
-      audio.src = song.src;
+    if (typeof track.path !== "undefined") {
+      audio.src = track.path;
       audio.load();
     }
-
-    // audio.play();
     // Fix DOM error by play() interrupt -> create a setTimout to load
-    setTimeout(function () {
+    setTimeout(() => {
+      this.commit("updateTrackState", {
+        track: track,
+        index: index,
+      });
+
+      state.isPlaying = true;
+
       audio.play();
     }, 15);
     audio.addEventListener("ended", () => {
       if (state.isRepeat) {
-        this.commit("play", state.currentIndex);
+        this.commit("repeat");
       } else if (state.isRandom) {
         this.commit("random");
       } else {
         this.commit("next");
       }
     });
-    state.currentIndex = index;
-    state.isPlaying = true;
   },
   pause(state) {
-    state.player.pause();
+    state.audio.pause();
     state.isPlaying = false;
   },
   prev(state) {
-    state.currentIndex--;
-    if (state.currentIndex < 0) {
-      state.currentIndex = state.songs.length - 1;
+    const tracks = state.currentPlaylist.tracks;
+    let trackIndex = state.currentIndex;
+    if (trackIndex === 0) {
+      trackIndex = tracks.length - 1;
+    } else {
+      trackIndex--;
     }
-    this.commit("play", state.currentIndex);
+    this.commit("updateTrackState", {
+      track: tracks[trackIndex],
+      index: trackIndex,
+    });
+    this.commit("play", {
+      track: tracks[trackIndex],
+      index: trackIndex,
+    });
   },
   next(state) {
-    state.currentIndex++;
-    if (state.currentIndex > state.songs.length - 1) {
-      state.currentIndex = 0;
+    const tracks = state.currentPlaylist.tracks;
+    let trackIndex = state.currentIndex;
+    if (trackIndex === tracks.length - 1) {
+      trackIndex = 0;
+    } else {
+      trackIndex++;
     }
-    this.commit("play", state.currentIndex);
+    this.commit("updateTrackState", {
+      track: tracks[trackIndex],
+      index: trackIndex,
+    });
+    this.commit("play", {
+      track: tracks[trackIndex],
+      index: trackIndex,
+    });
+  },
+  updateRandom(state) {
+    state.isRandom = !state.isRandom;
   },
   random(state) {
-    let newIndex;
+    let randomIndex;
+    const tracks = state.currentPlaylist.tracks;
     do {
-      newIndex = Math.floor(Math.random() * state.songs.length);
-    } while (newIndex === state.currentIndex);
-    state.currentIndex = newIndex;
-    state.isRandom = true;
-    this.commit("play", state.currentIndex);
+      randomIndex = Math.floor(Math.random() * tracks.length);
+    } while (randomIndex === state.currentIndex);
+    this.commit("updateTrackState", {
+      track: tracks[randomIndex],
+      index: randomIndex,
+    });
+    // state.isRandom = true;
+    this.commit("play", {
+      track: tracks[randomIndex],
+      index: randomIndex,
+    });
+  },
+  updateRepeat(state) {
+    state.isRepeat = !state.isRepeat;
   },
   repeat(state) {
-    state.player.loop = state.isRepeat;
+    state.audio.loop = state.isRepeat;
   },
-  onTimeUpdate(state) {
-    const audio = state.player;
-    const progress = document.querySelector("#progress");
-    audio.ontimeupdate = () => {
-      if (audio.duration) {
-        state.timeProgress = Math.floor(
-          (audio.currentTime / audio.duration) * 100
-        );
-        progress.value = state.timeProgress;
-      }
-      progress.onchange = function (e) {
-        const seekTime = (audio.duration / 100) * e.target.value;
-        audio.currentTime = seekTime;
-      };
-    };
-  },
+
   updateVolume(state, volume) {
-    state.player.volume = volume;
+    state.audio.volume = volume;
     state.volume = volume;
+  },
+
+  playOrPauseTrack(state) {
+    if (!state.isPlaying) {
+      state.isPlaying = true;
+      state.audio.play();
+    } else {
+      state.isPlaying = false;
+      state.audio.pause();
+    }
+  },
+
+  playFromFirst(state, playlist) {
+    state.currentPlaylist = playlist;
+    const tracks = state.currentPlaylist.tracks;
+    state.currentIndex = 0;
+    this.commit("play", {
+      track: tracks[state.currentIndex],
+      index: state.currentIndex,
+    });
+  },
+
+  // Reset State
+
+  // resetState(state) {
+  //   state.isPlaying = false;
+  //   state.audio = null;
+  //   state.currentPlaylist = null;
+  //   state.currentTrack = null;
+  //   state.currentIndex = null;
+  // },
+
+  // Update isLiked display
+  // Problems with store new data for Json data
+
+  // updateJsonState(state, { index, isLiked }) {
+  //   const storedState = JSON.parse(localStorage.getItem("store"));
+  //   storedState.currentPlaylist[index].isLiked = isLiked;
+  //   localStorage.setItem("store", JSON.stringify(storedState));
+  // },
+
+  // updateIsLikedPlaylist(state, isLikedPlaylist) {
+  //   const storedState = JSON.parse(localStorage.getItem("store"));
+  //   storedState.isLiked = state.isLikedTrack;
+  //   localStorage.setItem("store", JSON.stringify(storedState));
+  // },
+  filterPlaylist(state, filterType) {
+    state.currentFilter = filterType;
+    if (filterType === "All") {
+      state.filteredData = state.data.data;
+    } else if (filterType === "Current") {
+      state.filteredData = [].concat(state.currentPlaylist);
+    } else {
+      state.filteredData = state.data.data.filter(
+        (playlist) => playlist.type === filterType
+      );
+    }
   },
 };
