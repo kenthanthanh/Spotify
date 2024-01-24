@@ -1,7 +1,7 @@
 <template>
   <header
     id="TopNav"
-    class="w-[calc(100%-8px-408px)] h-[64px] fixed right-0 z-20 bg-[#5f5f5f] flex items-center justify-between px-[24px] rounded"
+    class="w-[calc(100%-8px-408px)] h-[64px] fixed right-0 z-20 bg-[#00000080] flex items-center justify-between px-[24px] rounded"
   >
     <div class="flex items-center">
       <button

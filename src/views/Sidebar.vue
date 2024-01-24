@@ -3,7 +3,7 @@
     id="SideNav"
     class="py-[8px] px-[12px] fixed top-0 left-0 bg-black h-[100vh] w-[408px] rounded overflow-y-auto"
   >
-    <ul class="flex flex-col items-start rounded">
+    <ul class="flex flex-col items-start rounded bg-[#00000080]">
       <RouterLink to="/">
         <MenuItemComponent
           name="Home"
@@ -51,7 +51,7 @@
         </div>
       </RouterLink>
     </ul>
-    <div class="rounded">
+    <div class="rounded bg-[#00000080] mt-[8px]">
       <ul class="overflow-hidden flex items-center gap-[8px] p-[8px]">
         <FilterData />
       </ul>

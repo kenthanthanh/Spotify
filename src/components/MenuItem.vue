@@ -41,7 +41,7 @@ const isHover = () => {
     <img
       :height="iconSize"
       :width="iconSize"
-      :src="`/images/icons/${icon}.png`"
+      :src="`./src/assets/img/icons/${icon}.png`"
       alt=""
     />
     <div
